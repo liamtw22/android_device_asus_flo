@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, device/asus/flo/device.mk)
 
 # Shipping API
-$(call inherit-product, vendor/lineage/build/target/product/product_launched_with_j_mr2.mk)
+$(call inherit-product, vendor/havoc/build/target/product/product_launched_with_j_mr2.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := flo
